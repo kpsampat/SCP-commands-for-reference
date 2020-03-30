@@ -1,0 +1,16 @@
+SCP Command to get the files from remote
+
+scp deploy@14.2.19.2:/home/deploy/dump/dump.sql  .
+
+#The above command may download the file in current directory as we have used .
+
+
+scp file.txt deploy@14.2.19.2:/remote/directory
+
+#The above command may lad up copying the file in remote directory from local machine
+
+ssh -l deploy 14.2.19.2
+
+SSH session hijacking:
+
+https://github.com/nopernik/SSHPry2.0
